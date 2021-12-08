@@ -22,7 +22,6 @@ Get contig lengths: cut -d " " -f 3  headers.txt | cut -d "=" -f 2 | sort -n > o
 Get number of reads : cut -d " " -f 5  headers.txt | cut -d "=" -f 2 | sort -n > output/reads
 
 Finally the information was combined into a .csv file called marra.csv.
-
 Commands: 
 
 echo "contig,contig_length,number_of_reads,isogroup" > output/marra.csv
